@@ -1,0 +1,11 @@
+{
+  "name": "pause-stream",
+  "repo": "juliangruber/pause-stream",
+  "version": "0.0.5",
+  "description": "a ThroughStream that strictly buffers all readable events when paused.",
+  "scripts": ["index.js"],
+  "dependencies": {
+    "juliangruber/stream": "*"
+  },
+  "keywords": ["stream", "pipe", "pause", "drain", "buffer"]
+}
