@@ -1,21 +1,7 @@
 {
-  "name": "pause-stream",
-  "version": "0.0.5",
+  "name": "juliangruber-pause-stream",
   "description": "a ThroughStream that strictly buffers all readable events when paused.",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "devDependencies": {
-    "stream-spec": "~0.2.0"
-  },
-  "scripts": {
-    "test": "node test/index.js && node test/pause-end.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/dominictarr/pause-stream.git"
-  },
+  "version": "0.0.5",
   "keywords": [
     "stream",
     "pipe",
@@ -23,9 +9,7 @@
     "drain",
     "buffer"
   ],
-  "author": "Dominic Tarr <dominic.tarr@gmail.com> (dominictarr.com)",
-  "license": [
-    "MIT",
-    "Apache2"
-  ]
+  "dependencies": {
+    "juliangruber-stream": "git://github.com/npmcomponent/juliangruber-stream.git"
+  }
 }

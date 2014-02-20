@@ -1,4 +1,4 @@
-var Stream = require('stream')
+var Stream = require('juliangruber-stream')
 
 /*
   was gonna use through for this,
